@@ -1,12 +1,78 @@
 .App {
   text-align: center;
 }
+.product-list {
+  text-align: center;
+  margin-top: 50px;
+}
+.product-list ul li {
+  display: inline-block;
+  border: 1px solid skyblue;
+  padding: 5px;
+  width: 150px;
+}
+.product-list ul{
+  margin: 0;
+}
+
 
 .App-logo {
   height: 40vmin;
   pointer-events: none;
 }
 
+.nav-ui li{
+  display: inline-block;
+  padding: 10px;
+}
+/* text-decoration: none; */
+.errorCss {
+  color: red;
+  margin-top: -6px;
+  display: block;
+  margin-left: 1px;
+}
+.nav-ui li a {
+  color : white;
+  padding : 5px;
+  text-decoration: none;
+
+}
+.nav-ui {
+  padding: 5px;
+  background-color: skyblue;
+  margin: 0;
+
+}
+.footer-ui {
+    background-color: skyblue;
+    width: 100%;
+    text-align: center;
+    position: absolute;
+    bottom: 0;
+    margin: 0;
+    padding: 10px;
+}
+.h1class .product  {
+  padding: 54px;
+}
+.inputBox {
+  display: block;
+  margin: 10px;
+  padding: 10px;
+  width: 300px;
+  margin-left: 450px;
+  border : 1px solid skyblue
+}
+.logo {
+  margin-left: 20px;
+  width: 100px;
+  float: left;
+  border-radius: 164%;
+}
+.nav-right {
+  text-align: right;
+}
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
     animation: App-logo-spin infinite 20s linear;
@@ -20,8 +86,8 @@
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
   color: white;
+  font-size: calc(10px + 2vmin);
 }
 
 .App-link {
